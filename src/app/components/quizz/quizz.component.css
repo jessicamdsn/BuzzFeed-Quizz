@@ -153,6 +153,19 @@
   }
 
   @media (max-width: 645px){
+
+h1{
+  font-size: 16px;
+}
+h3{
+  font-size: 13px;
+}
+.quizz_options{
+  button{
+    font-size: 14px;
+  }
+}
+
     .popup{
       background-color: transparent;
       border: none;
