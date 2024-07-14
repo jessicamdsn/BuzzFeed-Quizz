@@ -1,21 +1,31 @@
-<div class="quizz__container">
+<div *ngIf="!popup" class="quizz__container">
     <div class="quizz_logo">
         <img src="../../../assets/imgs/logo.png" alt="logo">
-        <h3>{{title}}</h3>
+        <br>
+        <h2>{{title}}</h2>
     </div>
     <div *ngIf="!finished" class="quizz_questions">
         <h3>{{questionSelected.question}}</h3>
     </div>
     <div *ngIf="!finished" class="quizz_options">
-        <button 
-        (click)="playerChoose(option.alias)"
-        *ngFor="let option of questionSelected.options; let i =index" 
-        class="btn-option">
+        <button (click)="playerChoose(option.alias)" *ngFor="let option of questionSelected.options; let i =index"
+            class="btn-option">
             {{option.name}}
         </button>
     </div>
     <div *ngIf="finished" class="quizz_results">
-        <h1>O seu resultado é:</h1>
-        <p>{{answerSelected}}</p>
+        <img [src]="answerSelected.image" alt="">
+        <div>
+           <h1>{{answerSelected.title}}</h1>
+        <h3>{{answerSelected.description}}</h3>  
+        </div>
+       
     </div>
+</div>
+
+
+<div *ngIf="popup" class="popup">
+    <h1>Quiz: Qual Profissão da Ficção Você Teria?</h1>
+    <img src="../../../assets/imgs/profissoes.jpeg" alt="" width="300px">
+    <button (click)="iniciar()">Iniciar quiz</button>
 </div>

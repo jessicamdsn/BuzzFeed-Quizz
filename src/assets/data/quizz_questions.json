@@ -1,55 +1,109 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
-    "questions":[
-      {
-        "id":1,
-        "question": "Qual super poder você escolheria ?",
-        "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-        ]
-      },
-      {
-        "id":2,
-        "question": "Quem você salvaria primeiro ?",
-        "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-        ]
-      },
-      {
-        "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-        "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-        ]
-      },
-      {
-        "id":4,
-        "question": "Qual o seu maior foco ?",
-        "options":[
-          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-        ]
-      },
-      {
-        "id":5,
-        "question": "Qual o seu apelido de super ser ?",
-        "options":[
-          {"id": 1, "name":"O Terrivel", "alias":"A"},
-          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-        ]
-      }
-    ],
-    "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+  "title": "Qual Profissão da Ficção Você Teria?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual dessas atividades você mais gosta de fazer?",
+      "options": [
+        {"id": 1, "name": "Explorar novos lugares", "alias": "A"},
+        {"id": 2, "name": "Resolver enigmas complexos", "alias": "B"},
+        {"id": 3, "name": "Proteger pessoas", "alias": "C"},
+        {"id": 4, "name": "Criar novas tecnologias", "alias": "D"},
+        {"id": 5, "name": "Cuidar de seres vivos", "alias": "E"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Como você reage a situações de perigo?",
+      "options": [
+        {"id": 1, "name": "Enfrento o perigo de frente", "alias": "A"},
+        {"id": 2, "name": "Analiso a situação antes de agir", "alias": "B"},
+        {"id": 3, "name": "Prioridade é proteger os outros", "alias": "C"},
+        {"id": 4, "name": "Uso minha inteligência para encontrar uma solução", "alias": "D"},
+        {"id": 5, "name": "Tento acalmar todos ao meu redor", "alias": "E"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual dessas habilidades você mais se identifica?",
+      "options": [
+        {"id": 1, "name": "Coragem", "alias": "A"},
+        {"id": 2, "name": "Inteligência", "alias": "B"},
+        {"id": 3, "name": "Liderança", "alias": "C"},
+        {"id": 4, "name": "Inovação", "alias": "D"},
+        {"id": 5, "name": "Empatia", "alias": "E"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Se você pudesse viver em um desses mundos fictícios, qual escolheria?",
+      "options": [
+        {"id": 1, "name": "Uma galáxia distante", "alias": "A"},
+        {"id": 2, "name": "Uma cidade cheia de mistérios", "alias": "B"},
+        {"id": 3, "name": "Um mundo de super-heróis", "alias": "C"},
+        {"id": 4, "name": "Um futuro tecnológico", "alias": "D"},
+        {"id": 5, "name": "Um planeta cheio de criaturas fantásticas", "alias": "E"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Qual desses itens você gostaria de ter?",
+      "options": [
+        {"id": 1, "name": "Uma nave espacial", "alias": "A"},
+        {"id": 2, "name": "Um livro de feitiços", "alias": "B"},
+        {"id": 3, "name": "Um escudo indestrutível", "alias": "C"},
+        {"id": 4, "name": "Um robô assistente", "alias": "D"},
+        {"id": 5, "name": "Uma varinha mágica", "alias": "E"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Como você lida com conflitos?",
+      "options": [
+        {"id": 1, "name": "Tendo uma abordagem direta", "alias": "A"},
+        {"id": 2, "name": "Usando lógica e raciocínio", "alias": "B"},
+        {"id": 3, "name": "Mediando a situação", "alias": "C"},
+        {"id": 4, "name": "Encontrando uma solução inovadora", "alias": "D"},
+        {"id": 5, "name": "Tentando entender todas as partes envolvidas", "alias": "E"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual dessas descrições mais se parece com seu estilo de vida?",
+      "options": [
+        {"id": 1, "name": "Aventuroso e desbravador", "alias": "A"},
+        {"id": 2, "name": "Investigador e curioso", "alias": "B"},
+        {"id": 3, "name": "Heroico e protetor", "alias": "C"},
+        {"id": 4, "name": "Inovador e criativo", "alias": "D"},
+        {"id": 5, "name": "Cuidadoso e compassivo", "alias": "E"}
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "title": "Você seria um Explorador Espacial!",
+      "description": "Você é corajoso e ama a aventura. Assim como personagens de Star Wars ou Star Trek, você estaria viajando pelo universo, descobrindo novos mundos e enfrentando o desconhecido.",
+      "image": "../../../assets/imgs/explorador_espacial.jpg"
+    },
+    "B": {
+      "title": "Você seria um Detetive Sobrenatural!",
+      "description": "Você é inteligente e gosta de resolver mistérios. Como Sherlock Holmes ou os irmãos Winchester de Supernatural, você estaria desvendando enigmas complexos e enfrentando fenômenos inexplicáveis.",
+      "image": "../../../assets/imgs/detetive_sobrenatural.jpg"
+    },
+    "C": {
+      "title": "Você seria um Super-Herói!",
+      "description": "Você é protetor e tem um forte senso de justiça. Assim como os personagens dos universos Marvel e DC, você estaria usando suas habilidades para salvar o mundo e proteger os inocentes.",
+      "image": "../../../assets/imgs/super_heroi.jpg"
+    },
+    "D": {
+      "title": "Você seria um Inventor Futurista!",
+      "description": "Você é inovador e adora criar. Como Tony Stark (Homem de Ferro) ou os personagens de De Volta para o Futuro, você estaria inventando tecnologias revolucionárias e mudando o mundo.",
+      "image": "../../../assets/imgs/inventor_futurista.jpg"
+    },
+    "E": {
+      "title": "Você seria um Guardião da Natureza!",
+      "description": "Você é compassivo e ama cuidar dos outros. Assim como os personagens de Harry Potter ou Avatar, você estaria protegendo e cuidando de seres vivos, seja em um mundo mágico ou natural.",
+      "image": "../../../assets/imgs/guardiao_natureza.jpg"
     }
   }
+}

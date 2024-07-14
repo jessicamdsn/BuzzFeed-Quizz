@@ -11,13 +11,15 @@ import quizz_questions from '../../../assets/data/quizz_questions.json'
 })
 export class QuizzComponent implements OnInit{
 
+popup:boolean = true
+
 title:string = ""
 
 questions:any
 questionSelected:any
 
 answers:string[]=[]
-answerSelected:string=""
+answerSelected: { title: string, description: string, image:string } = { title: "", description: "", image:"" }
 
 questionIndex:number=0
 questionMaxIndex:number=0
@@ -71,6 +73,11 @@ async checkResult(answers:string[]){
   })
 
   return result
+}
+
+
+iniciar(){
+  this.popup = false
 }
 
 
