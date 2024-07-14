@@ -1,27 +1,38 @@
-# BuzzFeed
+# 📌 Quiz de Profissões da Ficção
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Este projeto é um aplicativo de quiz desenvolvido em Angular que determina qual profissão da ficção você teria, com base nas respostas fornecidas pelo usuário.
 
-## Development server
+## 💻 Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O aplicativo apresenta uma série de perguntas e, com base nas respostas dos usuários, determina se eles seriam um Explorador Espacial, Detetive Sobrenatural, Super-Herói, Inventor Futurista ou Guardião da Natureza. Cada resultado inclui um título, uma descrição e uma imagem representativa.
 
-## Code scaffolding
+## 💡 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Exibição de perguntas dinâmicas.
+2. Coleta de respostas do usuário.
+3. Determinação do resultado final com base nas respostas.
+4. Exibição de um resultado com título, descrição e imagem.
 
-## Build
+## 🚀 Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<div style="diplay: inline_block"><br/>
+<a href="#"><img align="center" alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/></a>
+<a href="#"><img align="center" alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/></a>
+<img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img align="center" alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+<img align="center" alt="Vercel" src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🗂️ Estrutura do Projeto
+```
+src/
+├── app/
+│   ├── components/
+│   │   └── quiz/
+│   ├── Pages/
+│   │   └── home/
+│   └── ... (outros diretórios e arquivos)
+├── assets/
+└── ... (outros diretórios e arquivos)
+```
